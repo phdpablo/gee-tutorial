@@ -48,8 +48,8 @@ format: # https://quarto.org/docs/reference/formats/html.html
     code-link: true
     theme:
     # See more theme options at: https://quarto.org/docs/output-formats/html-themes.html
-      light: flatly
-      dark: darkly
+      light: spacelab
+      dark: slate
     number-sections: true
     link-external-newwindow: true
     fig-width: 5
