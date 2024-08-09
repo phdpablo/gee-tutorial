@@ -6,13 +6,13 @@ project: # https://quarto.org/docs/projects/quarto-projects.html
 execute: # https://quarto.org/docs/computations/execution-options.html
   warning: false
 book: # https://quarto.org/docs/books/index.html
-  title: "TIER Dynamic Template" # edit your title
-  subtitle: "Roadmap for Developing a Dynamic and Reproducible Research Article" # edit your subtitle
-  author: "Pablo Rogers" # edit your name
-  date: 08/08/2024 # https://quarto.org/docs/reference/dates.html
+  title: "Crossover GEE" # edit your title
+  subtitle: "Dynamic and Reproducible Tutorial" # edit your subtitle
+  author: "Pablo Rogers and Sérgio Georgeto" # edit your name
+  date: 08/09/2024 # https://quarto.org/docs/reference/dates.html
   date-format: long
-  doi: 10.17605/OSF.IO/NJDQ5 # put your DOI
-  cover-image: cover.png # edit ou exclude this image
+  doi: 10.17605/OSF.IO/MU67G # put your DOI
+  #cover-image: cover.png # edit ou exclude this image
   downloads: pdf # https://quarto.org/docs/books/book-output.html#reader-tools
   reader-mode: true
   sidebar:
@@ -22,8 +22,8 @@ book: # https://quarto.org/docs/books/index.html
   # edit or exclude this footer
     left: <a href="https://www.phdpablo.com">by Pablo Rogers</a> 
     right: This article was built with <a href="https://quarto.org/">Quarto</a> 
-  site-url: "https://phdpablo.github.io/article-template/" # edit your site URL
-  repo-url: "https://github.com/phdpablo/article-template/" # edit your repo URL
+  site-url: "https://phdpablo.github.io/gee-tutorial/" # edit your site URL
+  repo-url: "https://github.com/phdpablo/gee-tutorial" # edit your repo URL
   sharing: [twitter, facebook, linkedin] # edit or exclude this sharing
   open-graph: true
   

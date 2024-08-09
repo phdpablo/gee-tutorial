@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Pablo Rogers">
-<meta name="dcterms.date" content="2024-08-08">
+<meta name="author" content="Pablo Rogers and Sérgio Georgeto">
+<meta name="dcterms.date" content="2024-08-09">
 
-<title>TIER Dynamic Template</title>
+<title>Crossover GEE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,12 +73,9 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="TIER Dynamic Template">
-<meta property="og:description" content="Roadmap for Developing a Dynamic and Reproducible Research Article">
-<meta property="og:image" content="https://phdpablo.github.io/article-template/cover.png">
-<meta property="og:site_name" content="TIER Dynamic Template">
-<meta property="og:image:height" content="566">
-<meta property="og:image:width" content="400">
+<meta property="og:title" content="Crossover GEE">
+<meta property="og:description" content="Dynamic and Reproducible Tutorial">
+<meta property="og:site_name" content="Crossover GEE">
 </head>
 
 <body class="nav-sidebar floating fullcontent">
@@ -105,10 +102,10 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">TIER Dynamic Template</a> 
+      <a href="./">Crossover GEE</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://github.com/phdpablo/article-template/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./TIER-Dynamic-Template.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="https://github.com/phdpablo/gee-tutorial" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="./Crossover-GEE.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
     <div class="dropdown">
       <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
@@ -200,21 +197,20 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header">
-<h1 class="title display-7">TIER Dynamic Template</h1>
-<p class="subtitle lead">Roadmap for Developing a Dynamic and Reproducible Research Article</p>
-<p class="author">Pablo Rogers</p>
+<h1 class="title display-7">Crossover GEE</h1>
+<p class="subtitle lead">Dynamic and Reproducible Tutorial</p>
+<p class="author">Pablo Rogers and Sérgio Georgeto</p>
 
-<p class="date">August 8, 2024</p>
+<p class="date">August 9, 2024</p>
 </header>
 
 
-
 <section id="abstract" class="level1 unnumbered unlisted">
-<h1 class="unnumbered unlisted">Abstract</h1><p><img src="cover.png" title="TIER Dynamic Template" class="quarto-cover-image img-fluid"></p>
-<p>This is a template to create a project article using the <a href="https://quarto.org/docs/books/">Quarto book</a> and <a href="https://www.projecttier.org/tier-protocol/protocol-4-0/">TIER protocol 4.0</a> structures. Quarto is a document authoring and publishing tool that allows you to create books, reports, and other documents that are rich in content and fully reproducible. It is integrated with RStudio and is built on markdown and works with R language, Python, Julia, and Observable. The TIER protocol 4.0 specifies the contents and organization of reproduction documentation for a project involving computations with statistical data analysis. The project is already configured for versioning with Git/GitHub, environment control with <code>renv</code> and/or Docker, and publication on GitHub Pages.</p>
-<p><strong>Key-words:</strong> Open Science, Reproducibility, Quarto, TIER Protocol 4.0, R language, RStudio, Git, GitHub, renv, GitHub Pages.</p>
-<p><strong>How cite this template?</strong></p>
-<p>Rogers, P. (2024). TIER Protocol 4:0: Dynamic Template. <a href="https://doi.org/10.17605/OSF.IO/NJDQ5" class="uri">https://doi.org/10.17605/OSF.IO/NJDQ5</a></p>
+<h1 class="unnumbered unlisted">Abstract</h1>
+<p>The goal of this project is to conduct a thorough study on the use of the Generalized Estimating Equation (GEE) in crossover studies related to physiotherapy and rehabilitation. Creating an application tutorial in the R environment is the primary goal.</p>
+<p><strong>Key-words:</strong> Quantitative Methods, Generalized Estimating Equation, GEE, Crossover Studies, Crossover GEE.</p>
+<p><strong>How cite this project?</strong></p>
+<p>Rogers, P., &amp; Georgeto, S. M. (2024). Utilizing GEE in Crossover Studies. <a href="https://doi.org/10.17605/OSF.IO/MU67G" class="uri">https://doi.org/10.17605/OSF.IO/MU67G</a></p>
 
 
 </section>
@@ -445,7 +441,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/phdpablo\.github\.io\/article-template\/");
+      var filterRegex = new RegExp("https:\/\/phdpablo\.github\.io\/gee-tutorial\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

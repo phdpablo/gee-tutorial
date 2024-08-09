@@ -1,5 +1,3 @@
 # Background
 
-The text below is intended to be an instructive example...
-
-Make sure to look into the thought of reproducible research practice [@sullivan2019; @wilson2017; @vuorre2018; @gilroy2019; @dogucu2022; @wiebels2021].
+In development
