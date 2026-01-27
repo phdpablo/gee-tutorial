@@ -1,0 +1,49 @@
+# Data Visualization
+
+<br>
+
+This Quarto document (`Scripts/AnalysisScripts/data_visualization.qmd`) serves as an example of an **analysis script**. It's separate from the main narrative (the `.qmd` files in the project root like `01-intro.qmd`). The purpose here is to perform data analysis or create visualizations that might be too detailed or exploratory for the main article.
+
+It should be noted that you have the option to create a raw R script (`*.R`) and use `#` to indicate comments. On the other hand, we think that a single Quarto document like this one accomplishes the same goal while also improving the organization and didactics of the analysis documentation, as you can mix code, its output, and explanatory text.
+
+The best approach, for integrating results into the main narrative, is often to use dynamic documents like this one for analysis and then embed only the *outputs* (e.g., a specific figure or table) into the main article's `.qmd` files using Quarto's `{{< embed >}}` feature (as shown in `04-results.qmd`).
+
+As an illustration, you can write your script according to best practices, adding whatever is required for the analysis. You can label specific code chunks (using `#| label: chunk-name`) so that the main narrative document can reference and embed only the output of those specific chunks.
+
+## A code chunk used to construct example figure for the Results section
+
+This chunk creates a simple scatter plot with a trend line using `ggplot2`. It's labeled `fig-pressure` so it can be easily embedded elsewhere.
+
+```{r}
+#| label: fig-pressure
+#| fig-cap: "Pressure"
+#| code-fold: true
+
+library(ggplot2)
+# Create example data
+dat <- data.frame(cond = rep(c("A", "B"), each=10),
+                  xvar = 1:20 + rnorm(20,sd=3),
+                  yvar = 1:20 + rnorm(20,sd=3))
+# Create the plot
+ggplot(dat, aes(x=xvar, y=yvar)) +
+    geom_point(shape=1) + 
+    geom_smooth() 
+```
+
+Keep in mind that the code chunk in this example needs to have all of the components necessary for it to exist, which in this case includes reading the `ggplot2` library. When producing more sophisticated outputs, the researcher may decide to just include the final result (the figure) in the article (using `{{< embed ... >}}`) and provide the full code and context within this script file.
+
+## A code chunk used to construct example table for the Results section
+
+Here is another example of how we can embed a table into the text narrative with the `knitr::kable()` function to print tables as HTML.
+
+```{r}
+#| label: tbl-diamonds
+#| tbl-cap: "Diamonds characteristics"
+#| code-fold: true
+
+knitr::kable(head(ggplot2::diamonds))
+```
+
+The outputs produced when rendering *this specific document* (`data_visualization.qmd`) would typically be viewed in the RStudio Viewer or saved as an HTML file. However, the key feature is that the *outputs* (the plot from `fig-pressure` and the table from `tbl-diamonds`) are embedded into the main narrative document (`04-results.qmd`) using the `{{< embed >}}` shortcode. This keeps the main article clean while linking it to the detailed analysis performed here.
+
+The researcher can then decide which outputs to include in the main article and which to leave detailed in the scripts. This is a great way to keep the article concise and focused on the most important results derived from well-documented analyses.

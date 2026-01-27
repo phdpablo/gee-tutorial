@@ -1,8 +1,20 @@
-.Rproj.user
+# R/RStudio
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
-/project/.quarto/
-/project/site_libs/
-/project/0*
-/adm/
+
+# Quarto and builds
+.quarto/
+_book/
+_site/
+_temp/
+_freeze/
+/site_libs/
+/04-results_files/
+docs/
+*.tex
+
+# Management
+Adm/
+/.quarto/

@@ -1,9 +1,0 @@
-# Abstract {.unnumbered .unlisted}
-
-The goal of this project is to conduct a thorough study on the use of the Generalized Estimating Equation (GEE) in crossover studies related to physiotherapy and rehabilitation. Creating an application tutorial in the R environment is the primary goal.
-
-**Key-words:** Quantitative Methods, Generalized Estimating Equation, GEE, Crossover Studies, Crossover GEE.
-
-**How cite this project?**
-
-Rogers, P., & Georgeto, S. M. (2024). Utilizing GEE in Crossover Studies. <https://doi.org/10.17605/OSF.IO/MU67G>
