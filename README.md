@@ -1,7 +1,7 @@
 # Utilizing GEE in Crossover Studies
 
 [![Deploy ARTE Template](https://github.com/phdpablo/gee-tutorial/actions/workflows/deploy.yml/badge.svg)](https://github.com/phdpablo/gee-tutorial/actions/workflows/deploy.yml)
-[![DOI](https://img.shields.io/badge/DOI-10.17605%2FOSF.IO%2FQ2MGK-blue)](https://doi.org/10.17605/OSF.IO/Q2MGK)
+[![DOI](https://img.shields.io/badge/DOI-10.17605%2FOSF.IO%2FMU67G-blue)](https://doi.org/10.17605/OSF.IO/MU67G)
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 This repository contains a **dynamic and reproducible tutorial** on utilizing Generalized Estimating Equation (GEE) in crossover studies within the context of randomized clinical trials related to physiotherapy and rehabilitation. The tutorial is implemented as an interactive document using R, RStudio, and Quarto, following open science principles and best practices for reproducible research.
@@ -81,13 +81,13 @@ If you use this tutorial in your research or teaching, please cite:
   author = {Rogers, Pablo and Georgeto, Sérgio Murilo},
   year = {2024},
   publisher = {OSF},
-  doi = {10.17605/OSF.IO/Q2MGK},
-  url = {https://osf.io/Q2MGK/}
+  doi = {10.17605/OSF.IO/MU67G},
+  url = {https://osf.io/MU67G/}
 }
 ```
 
 **APA Format:**  
-Rogers, P. & Georgeto, S. M. (2024). *Utilizing GEE in Crossover Studies*. OSF. https://doi.org/10.17605/OSF.IO/Q2MGK
+Rogers, P. & Georgeto, S. M. (2024). *Utilizing GEE in Crossover Studies*. OSF. https://doi.org/10.17605/OSF.IO/MU67G
 
 ## Related Projects
 
@@ -114,7 +114,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 ## Contact
 
-For questions or feedback, please [open an issue](https://github.com/phdpablo/anova-tutorial/issues) or contact the authors through the [OSF project page](https://osf.io/3rxf2/).
+For questions or feedback, please [open an issue](https://github.com/phdpablo/gee-tutorial/issues) or contact the authors through the [OSF project page](https://osf.io/mu67g/).
 
 ---
 
