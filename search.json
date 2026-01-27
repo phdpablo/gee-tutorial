@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Crossover GEE",
+    "section": "",
+    "text": "Dynamic and Reproducible Tutorial\nPablo Rogers and Sérgio Georgeto\n\nJanuary 27, 2026\n\n\n\n\n\nAbstract\nThis dynamic and reproducible tutorial is part of a broader research initiative on utilizing Generalized Estimating Equation (GEE) in crossover studies within the context of randomized clinical trials related to physiotherapy and rehabilitation (Georgeto & Rogers, 2024a, 2024b; Rogers & Georgeto, 2024). The primary goal is to provide a comprehensive application tutorial in the R environment, demonstrating best practices for analyzing crossover designs using GEE.\nThis project adopts open science principles and reproducible research practices as outlined by Limongi & Rogers (2025a), Limongi & Rogers (2025b), and Rogers & Limongi (2025), ensuring transparency, accessibility, and replicability of all analyses and results. The tutorial integrates theoretical foundations with practical implementation, offering researchers and practitioners a hands-on guide for conducting rigorous statistical analyses in crossover clinical trials.\nKeywords: Quantitative Methods, Generalized Estimating Equation, GEE, Crossover Trials, Crossover Studies, Reproducible Research, Open Science.\nHow to cite this project?\nRogers, P., & Georgeto, S. M. (2024). Utilizing GEE in Crossover Studies. https://doi.org/10.17605/OSF.IO/MU67G\n\n\n\n\nGeorgeto, S. M., & Rogers, P. (2024a). Applying ANOVA in Crossover Trials. https://doi.org/10.17605/OSF.IO/3RXF2\n\n\nGeorgeto, S. M., & Rogers, P. (2024b). Quantitative Methods in Crossover Studies. https://doi.org/10.17605/OSF.IO/Q2MGK\n\n\nLimongi, R., & Rogers, P. (2025a). Open Science in Three Acts: Foundations, Practice, and Implementation - First Act. BAR - Brazilian Administration Review, 22(1), e250079. https://doi.org/10.1590/1807-7692bar2025250079\n\n\nLimongi, R., & Rogers, P. (2025b). Open Science in Three Acts: Foundations, Practice, and Implementation - Second Act. BAR - Brazilian Administration Review, 22(2), e250116. https://doi.org/10.1590/1807-7692bar2025250116\n\n\nRogers, P., & Georgeto, S. M. (2024). Utilizing GEE in Crossover Studies. https://doi.org/10.17605/OSF.IO/MU67G\n\n\nRogers, P., & Limongi, R. (2025). Open Science in Three Acts: Foundations, Practice, and Implementation - Third Act. BAR - Brazilian Administration Review, 22(3), e250162. https://doi.org/10.1590/1807-7692bar2025250162",
+    "crumbs": [
+      "Abstract"
+    ]
+  },
+  {
+    "objectID": "01-intro.html",
+    "href": "01-intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "In development",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "02-background.html",
+    "href": "02-background.html",
+    "title": "2  Background",
+    "section": "",
+    "text": "In development",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Background</span>"
+    ]
+  },
+  {
+    "objectID": "03-methods.html",
+    "href": "03-methods.html",
+    "title": "3  Methods",
+    "section": "",
+    "text": "In development",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Methods</span>"
+    ]
+  },
+  {
+    "objectID": "04-results.html",
+    "href": "04-results.html",
+    "title": "4  Results",
+    "section": "",
+    "text": "In development",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Results</span>"
+    ]
+  },
+  {
+    "objectID": "05-conclusion.html",
+    "href": "05-conclusion.html",
+    "title": "5  Conclusion",
+    "section": "",
+    "text": "In development",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Conclusion</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Georgeto, S. M., & Rogers, P. (2024a). Applying\nANOVA in Crossover Trials. https://doi.org/10.17605/OSF.IO/3RXF2\n\n\nGeorgeto, S. M., & Rogers, P. (2024b). Quantitative\nMethods in Crossover Studies. https://doi.org/10.17605/OSF.IO/Q2MGK\n\n\nLimongi, R., & Rogers, P. (2025a). Open Science in\nThree Acts: Foundations,\nPractice, and Implementation - First\nAct. BAR - Brazilian Administration Review,\n22(1), e250079. https://doi.org/10.1590/1807-7692bar2025250079\n\n\nLimongi, R., & Rogers, P. (2025b). Open Science in\nThree Acts: Foundations,\nPractice, and Implementation - Second\nAct. BAR - Brazilian Administration Review,\n22(2), e250116. https://doi.org/10.1590/1807-7692bar2025250116\n\n\nRogers, P., & Georgeto, S. M. (2024). Utilizing GEE\nin Crossover Studies. https://doi.org/10.17605/OSF.IO/MU67G\n\n\nRogers, P., & Limongi, R. (2025). Open Science in\nThree Acts: Foundations,\nPractice, and Implementation - Third\nAct. BAR - Brazilian Administration Review,\n22(3), e250162. https://doi.org/10.1590/1807-7692bar2025250162",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
